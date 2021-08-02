@@ -79,12 +79,15 @@ output(getString("Kevin", "Clegg"));
 function getString(firstName,familyName) {
     const gap = " ";
     const outputStr = "Hallo " + firstName + gap + familyName + "!";
-    return outputStr; // ---> Daten  
+    return outputStr; // ---> Daten zum Call
+
+    console.log("hi"); // return beendet die Funktion
 }
 
 
 // 2. Job: string output
 // output("hi"); // Test UNIT-Test TDD
+// output(); 
 function output(outputStr) {
     console.log(outputStr);
 }
